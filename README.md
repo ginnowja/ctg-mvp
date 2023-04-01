@@ -11,7 +11,7 @@ If you want to start/stop this thing without some sort of Spring enabled IDE the
 
 1. Open termnial\cmd\bash\whatever at the root of the ctg-mvp directory 
 2. `mvn clean package`
-3. `java -jar mvp-service-0.0.1-SNAPSHOT.jar`
+3. `java -jar target/mvp-service-0.0.1-SNAPSHOT.jar`  (Fix the slash for your OS..)
 
 The app should boot and listen on port 8080. Have fun!
 
