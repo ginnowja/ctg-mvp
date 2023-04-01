@@ -20,7 +20,7 @@ The app should boot and listen on port 8080. Have fun!
 * localhost:8080/swagger-ui.html - Generated Java docs
 * localhost:8080/h2-console - DB console
   * user: sa
-  * pass: password
+  * pass: (No password)
 * localhost:8080/actuator/health
 
 ## Some notes of interest.. ##
