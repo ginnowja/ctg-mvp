@@ -17,11 +17,11 @@ The app should boot and listen on port 8080. Have fun!
 
 
 ## Helpful Links ##
-* localhost:8080/swagger-ui.html - Generated Java docs
-* localhost:8080/h2-console - DB console
+* [Swagger API docs and test tool](localhost:8080/swagger-ui.html) - Generated Java docs. This is an interactive UI that you can use to actually invoke the endpoints through your browser (obviously any other rest testing tool will work as well.. this is just super conveinent)
+* [Database console](localhost:8080/h2-console) - DB console
   * user: sa
   * pass: (No password)
-* localhost:8080/actuator/health - pretty dumb atm.. but later this can report on DB connectivity, etc and let us raise support alerts and other useful things
+* [Health endpoint](localhost:8080/actuator/health) - pretty dumb atm.. but later this can report on DB connectivity, etc and let us raise support alerts and other useful things
 
 
 ## Some notes of interest.. ##
