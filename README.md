@@ -21,7 +21,8 @@ The app should boot and listen on port 8080. Have fun!
 * localhost:8080/h2-console - DB console
   * user: sa
   * pass: (No password)
-* localhost:8080/actuator/health
+* localhost:8080/actuator/health - pretty dumb atm.. but later this can report on DB connectivity, etc and let us raise support alerts and other useful things
+
 
 ## Some notes of interest.. ##
 * This app runs with spring-boot-devtools. Its primary function in our world atm is to reload classes on edit.. 'hot-deploy' code. _SOMETIMES_ this can really screw with you and isn't worth the cost. If this is the case.. simply remove the dependency from the pom and restart the app. I'd recommend this if 1+1 != 2
